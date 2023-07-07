@@ -396,7 +396,7 @@ var main = (function($) { var _ = {
 		// Create slides from thumbnails.
 			_.$thumbnails.children()
 				.each(function() {
-
+					if ($(this).is('.title')) return
 					var	$this = $(this),
 						$thumbnail = $this.children('.thumbnail'),
 						s;

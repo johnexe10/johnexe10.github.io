@@ -930,7 +930,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 3em 1.25em 1.75em 1.25em;
+		padding: 3em 1.25em 0 1.25em;
 	}
 
 		#header h1 {
@@ -975,6 +975,7 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		padding: 0 1.25em;
+		border-top: 2px solid #cccccc;
 	}
 
 		#thumbnails article {
