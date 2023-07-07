@@ -841,7 +841,13 @@ input, select, textarea {
 		z-index: 10000;
 		left: 0;
 	}
-
+		#main .title{
+			font-size: 1.25em;
+			font-weight: 700;
+			padding: 1em 0em;
+			padding-top: 1.5em;
+			width: 100%;
+		}
 		#main .toggle {
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 			position: absolute;
